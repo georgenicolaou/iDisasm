@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Plugins">
+      <UniqueIdentifier>{98b91a17-a37b-4410-b983-b22f2fa07a01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idisasm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_mnemonics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="idisasm_include.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idisasm_internal.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intel.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_defs.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="archs.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_addressings.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_opcode_maps.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_instruction_info.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_opcode_groups.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_mnemonics.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
